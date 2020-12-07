@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-video{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 10px;
+}
+body{
+    background-image: ;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p,
+li,
+label,
+input, 
+button, 
+textarea{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black; 
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 38px;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+header{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-image: url(../img/cortinas.png);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    color: white;
+}
+nav{
+    overflow: hidden;
+}
+nav, h1,
+nav ul{
+    display: inline;
+}
+nav ul li{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#section{
+    margin: 0 auto;
+}
+.posterA{
+    width: 320px;
+}
+.posterB{
+    width: 300px;
+}
+.posterC{
+    width: 285px;
+}
+.posterD{
+    width: 300px;
+}
+.poster1{
+    width: 270px;
+ }   
+ .poster2{
+     width: 260px;
+ }
+ .poster3{
+     width: 260px;
+ }
+
+
+ .main-container{ 
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    background-image: url(../img/ticket.png); top left: center;
+}
+.main-container div{
+    display: inline-block;
+    text-align: right;
+    width: 450px;
+}
+.main.container div h4{
+    margin-top: 5px;
+}
+#descripcion-destacada{
+text-align: left;        
+}
+#izquierda{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+#formulario{
+    display: block;
+    width: 800px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    margin-bottom: 50px;
+   
+}
+#formulario textarea{
+    height: 100px;
+    font-size: 14px;
+    width: 100%;
+}
+.info{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #4b5156;
+    font-size: 14px;
+}
+#enviar{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+footer{
+    background-color: #cbc0ea;
+    text-align: center;
+    padding: 15px;
+    background-image: url(../img/cortinas.png);
+    box-shadow: 5px 5px 30px 0 rgba(0,0,0,0.3);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
